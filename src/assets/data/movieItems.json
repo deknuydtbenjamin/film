@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"name": "Harry Potter",
+		"movieImg": "https://www.yourdecoration.fr/cdn/shop/files/gbeye-fp2512-harry-potter-7-teaser-affiche-61x91-5cm.jpg?v=1714115153",
+		"categorie": "film"
+	},
+	{
+		"id": 2,
+		"name": "DeadPool",
+		"movieImg": "https://fr.web.img6.acsta.net/r_1280_720/img/96/2d/962d25b7100164bdcf91ca5b1d01d0f8.jpg",
+		"categorie": "film"
+	},
+	{
+		"id": 3,
+		"name": "Game of throne",
+		"movieImg": "https://cdn.europosters.eu/image/1300/art-photo/game-of-thrones-season-8-key-art-i135443.jpg",
+		"categorie": "serie"
+	},
+	{
+		"id": 4,
+		"name": "Beetlejuice",
+		"movieImg": "https://www.yourdecoration.fr/cdn/shop/files/Poster-Beetlejuice-2-One-Sheet-61x91-5cm-PP2403442.jpg?v=1725959319",
+		"categorie": "film"
+	},
+	{
+		"id": 5,
+		"name": "The Boys",
+		"movieImg": "https://www.comicsblog.fr/images/editeur/Arno/Mai%202024/The-Boys-S04-new-02.jpeg",
+		"categorie": "serie"
+	},
+	{
+		"id": 6,
+		"name": "Arcane",
+		"movieImg": "https://media.senscritique.com/media/000020358499/0/arcane.jpg",
+		"categorie": "serie"
+	}
+]
