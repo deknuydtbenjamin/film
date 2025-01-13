@@ -1,7 +1,11 @@
 import data from "../assets/data/movieItems.json";
 import Movie from "./Movie";
 
-export default function Catalogue({ categorie }) {
+interface CatalogueProps {
+	categorie: string;
+}
+
+export default function Catalogue({ categorie }: CatalogueProps) {
 	const movieItems = data;
 
 	const filterMovies = movieItems.filter((movie) => {
