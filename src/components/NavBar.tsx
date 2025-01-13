@@ -1,5 +1,9 @@
-export default function Navbar({ setCategorie }) {
-	const handleClick = (categorie) => {
+interface NavbarProps {
+	setCategorie: (categorie: string) => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ setCategorie }) => {
+	const handleClick = (categorie: string) => {
 		setCategorie(categorie);
 	};
 
@@ -31,4 +35,5 @@ export default function Navbar({ setCategorie }) {
 			</button>
 		</nav>
 	);
-}
+};
+export default Navbar;
