@@ -1,9 +1,4 @@
-type MovieType = {
-	id: number;
-	name: string;
-	movieImg: string;
-	categorie: string;
-};
+import type { MovieType } from "../lib/definitions";
 export default function Movie({ movieImg, name }: MovieType) {
 	return (
 		<section className="m-8  transition ease-in-out delay-150  hover:-translate-y-2 ">
